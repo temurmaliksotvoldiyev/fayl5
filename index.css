@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+/* *
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: dodgerblue;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+} */
+
+
+/* gap- ustun va qatorlardan joy tashab beradi */
+/* .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+column-gap: 50px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: dodgerblue;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+} */
+
+/* grid-template-column har biriga wids berish */
+/* .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+grid-template-rows: 100px 200px 300px;
+gap: 50px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: dodgerblue;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+} */
+
+/* .grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+gap: 50px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: dodgerblue;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+} */
+
+/*  */
+
+/* .grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows: 100px 200px 300px;
+gap: 50px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: dodgerblue;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+} */
+
+
+
+
+/* grid- atim */
+.grid-container {
+    display: grid;
+    justify-content: center;
+    
+    grid-template-columns:auto auto auto auto auto auto;
+    gap: 50px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.grid-container > div{
+    background-color: dodgerblue;
+    border: 1px solid red;
+    padding: 20px 80px;
+    text-align: center;
+}
+.grid-item6{
+    grid-row: 1/5;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .grid-item{
+background-color: white;
+
+    }
+  }
+  @media only screen and (max-width: 700px) {
+body{
+    background: black;
+
+}
+.grid-container{
+    background: black;
+}
+  }
